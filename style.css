@@ -1,0 +1,57 @@
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    overflow-y: hidden;
+    min-height: 100vh;
+}
+/* NavBar Section*/
+
+.container {
+    
+}
+#navbar {
+    background-color: #3b5998;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: 28.3px 28.3px 28.3px;
+    grid-template-areas:
+    ". . . . logo . . . email-label password-label ."
+    ". . . . logo . . . email password login-btn"
+    ". . . . logo . . . . forgot ."
+}
+
+#logo {
+    color: white;
+    grid-area: logo;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 55px;
+    align-self: center;
+}
+
+#email-label {
+    grid-area: email-label;
+    align-self: center;
+}
+
+#email {
+    grid-area: email;
+    margin-right: 15px;
+}
+
+#password-label {
+    grid-area: password-label;
+    align-self: center;
+}
+
+#password {
+    grid-area: password;
+    margin-right: 15px;
+}
+
+#forgot {
+    grid-area: forgot;
+}
+
+#login-btn {
+    grid-area: login-btn;
+}
