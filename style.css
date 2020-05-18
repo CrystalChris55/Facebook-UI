@@ -167,6 +167,7 @@ body {
 }
 #third-img {
     grid-area: third-img;
+    margin-bottom: -75px;
 }
 #third-text {
     grid-area: 4 / 2 / 4 / 3;
@@ -219,18 +220,18 @@ body {
 }
 #fourth-input {
     grid-area: 3 / 3 / 3 / 3;
-    margin-top: -75px;
+    margin-top: -115px;
 }
 
 .birthday {
     height: 30px;
     width: 55px;
-    margin-top: 70px;
+    margin-top: -25px;
 }
 
 #bday-label {
     grid-area: 3 / 3 / 3 / 3;
-    margin-top: 40px;
+    margin-top: -50px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #90949c;
@@ -254,7 +255,7 @@ body {
     font-weight: bold;
     color: #90949c;
     font-size: 18px;
-    margin-top: 15px;
+    margin-top: -150px;
 }
 
 .radio-style {
@@ -267,33 +268,40 @@ body {
 
 #male {
     grid-area: 4 / 3 / 4 / 3;
+    margin-top: -150px;
 }
 #m-label {
     grid-area: 4 / 3 / 4 / 3;
-    margin-left: 25px;
+    margin-left: ;
+    margin-top: -130px;
 }
 #female {
     grid-area: 4 / 3 / 4 / 3;
-    margin-left: 100px;
+    margin-left: ;
+    margin-top: -150px;
 }
 #f-label {
     grid-area: 4 / 3 / 4 / 3;
-    margin-left: 120px;
+    margin-left: 85px;
+    margin-top: -130px;
 }
 #other {
     grid-area: 4 / 3 / 4 / 3;
-    margin-left: 220px;
+    margin-left: ;
+    margin-top: -150px;
 }
 #o-label {
     grid-area: 4 / 3 / 4 / 3;
-    margin-left: 240px;
+    margin-left: 185px;
+    margin-top: -130px;
 }
 
 #tos {
     grid-area: 5 / 3 / 5 / 3;
-    font-size: 12px;
+    font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
+    margin-top: -250px;
 }
 #tos a {
     text-decoration: none;
@@ -310,6 +318,7 @@ body {
     border-radius: 5px;
     border: 1px solid black;
     background: linear-gradient(#67ae55, #578843);
+    margin-top: -340px;
 }
 
 #below-signup {
@@ -320,7 +329,7 @@ body {
     color: #666;
     border-top: 1px solid rgba(128, 128, 128, 0.363);
     padding-top: 15px;
-    margin-top: -5px;
+    margin-top: -450px;
 }
 #below-signup a {
     text-decoration: none;
